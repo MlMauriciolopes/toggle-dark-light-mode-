@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pricing Cards UI Design</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="toggle"></div>
+	<div class="container">
+		<div class="card">
+			<div class="box">
+				<div class="content">
+					<div class="icon"><i class="fa fa-paper-plane" aria-hidden="true"></i></div>
+					<h3>Básico</h3>
+					<h4><sup>R$</sup>25</h4>
+					<ul>
+						<li><i class="fa fa-check" aria-hidden="true"></i>10 GB de espaço</li>
+						<li><i class="fa fa-check" aria-hidden="true"></i>3 Nomes de domínio</li>
+						<li><i class="fa fa-check" aria-hidden="true"></i>10 Endereços de email</li>
+						<li><i class="fa fa-times" aria-hidden="true"></i>Auto atendimento</li>
+					</ul>
+					<a href="#">Comprar agora</a>
+				</div><!--content-->
+			</div><!--box-->
+		</div><!--card-->
+
+
+		<div class="card">
+			<div class="box">
+				<div class="content">
+					<div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
+					<h3>Intermediário</h3>
+					<h4><sup>R$</sup>50</h4>
+					<ul>
+						<li><i class="fa fa-check" aria-hidden="true"></i>20 GB de espaço</li>
+						<li><i class="fa fa-check" aria-hidden="true"></i>5 Nomes de domídio</li>
+						<li><i class="fa fa-check" aria-hidden="true"></i>20 Endereços de email</li>
+						<li><i class="fa fa-times" aria-hidden="true"></i>Auto atendimento</li>
+					</ul>
+					<a href="#">Comprar agora</a>
+				</div><!--content-->
+			</div><!--box-->
+		</div><!--card-->
+
+
+		<div class="card">
+			<div class="box">
+				<div class="content">
+					<div class="icon"><i class="fa fa-rocket" aria-hidden="true"></i></div>
+					<h3>Premium</h3>
+					<h4><sup>R$</sup>100</h4>
+					<ul>
+						<li><i class="fa fa-check" aria-hidden="true"></i>50 GB de espaço</li>
+						<li><i class="fa fa-check" aria-hidden="true"></i>10 Nomes de domínio</li>
+						<li><i class="fa fa-check" aria-hidden="true"></i>50 Endereços de email</li>
+						<li><i class="fa fa-check" aria-hidden="true"></i>Auto atComprar agora</li>
+					</ul>
+					<a href="#">Comprar agora</a>
+				</div><!--content-->
+			</div><!--box-->
+		</div><!--card-->
+	</div><!--container-->
+
+	<script type="text/javascript">
+		const body = document.querySelector('body');
+		document.querySelector('.toggle').onclick = function(){
+			body.classList.toggle('light')
+		}
+	</script>
+
+</body>
+</html>
